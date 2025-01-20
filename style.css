@@ -12,9 +12,15 @@ body {
   font-family: 'Poppins', serif;
   background: #ffff;
 }
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* header section style */
 
 .main_nav {
-  max-width: 1196px;
+  max-width: 1500px;
   height: 103px;
   margin: 0 auto;
   display: flex;
@@ -40,4 +46,69 @@ body {
   cursor: pointer;
   margin-right: 32px;
   font-size: 2rem;
+}
+
+/* hero section style */
+
+#hero {
+  margin-top: 100px;
+}
+.hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 133px;
+}
+.hero_info {
+  width: 600px;
+  align-items: center;
+}
+.hero_heding {
+  font-size: 3.25rem;
+  color: var(--pry_color);
+  font-weight: 700px;
+}
+
+.hero_dec {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--pry_color);
+  margin-top: 20px;
+}
+.hero_btn {
+  padding: 15px 30px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+  color: #ffff;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hero_img {
+  width: 440px;
+  height: 440px;
+  background-image: url('./images/Circle\ design.svg');
+  background-size: cover;
+}
+
+/* compane section style */
+.compane {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.compane_logo {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background: linear-gradient(
+    135deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.378%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  /* border-top: 1px solid #dadae4;
+  border-bottom: 1px solid #dadae4; */
+  padding: 50px 0;
+  justify-items: center;
 }
