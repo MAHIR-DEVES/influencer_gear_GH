@@ -1,0 +1,43 @@
+:root {
+  --pry_color: #3a3a3a;
+  --box_text_color_1: #18191f;
+  --box_text_color_2: #787885;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', serif;
+  background: #ffff;
+}
+
+.main_nav {
+  max-width: 1196px;
+  height: 103px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.menu_list {
+  font-size: 1.5rem;
+}
+
+.menu_list a {
+  margin-right: 32px;
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.icon {
+  cursor: pointer;
+  margin-right: 32px;
+  font-size: 2rem;
+}
